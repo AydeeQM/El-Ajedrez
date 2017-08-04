@@ -1,4 +1,3 @@
-//var generar = document.getElementById('ejecutar');
 var tablero = document.getElementById('tablero');
 
 function printMatrix (M){
@@ -121,7 +120,6 @@ function genera(){
             break;
         }
     }
-    
     var tabla = document.createElement('table');
     tabla.border = "1";
     for (var i = 0; i < n; i++) {
@@ -141,6 +139,7 @@ function genera(){
         tabla.appendChild(fila);
     }
     tablero.appendChild(tabla);
+    tablero.setAttribute('align','center');
 }
 
 var soluciones = document.getElementById('solucion');

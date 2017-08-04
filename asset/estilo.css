@@ -1,3 +1,16 @@
+.contenedor {
+    background: #000;
+    padding: 15px;
+}
+
+#tablero {
+    background: #DBD8D8;
+}
+div p {
+    font-family: monospace;
+    color:crimson;
+    font-size: 40px;
+}
 .negro{
   background-color: black;
   color:white;
